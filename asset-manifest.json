@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/FeedBackHub/static/css/main.b59edd39.css",
+    "main.js": "/FeedBackHub/static/js/main.1c81761c.js",
+    "index.html": "/FeedBackHub/index.html",
+    "main.b59edd39.css.map": "/FeedBackHub/static/css/main.b59edd39.css.map",
+    "main.1c81761c.js.map": "/FeedBackHub/static/js/main.1c81761c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b59edd39.css",
+    "static/js/main.1c81761c.js"
+  ]
+}
