@@ -1,6 +1,6 @@
-# ◆ Sistema de Feedback — Plataforma Alpha
+# ◆ Sistema de Feedback
 
-> Aplicação React configurável para captura, classificação e análise de feedbacks da **Plataforma Alpha**. Transforma percepção do usuário em métricas de utilidade, confiança, contexto, adoção, risco e priorização de backlog.
+> Aplicação React configurável para captura, classificação e análise de feedbacks da **Plataforma Alpha**, uma plataforma falsa para servir de placeholder aqui. Transforma percepção do usuário em métricas de utilidade, confiança, contexto, adoção, risco e priorização de backlog.
 
 ---
 
@@ -33,15 +33,15 @@ feedbackhub/
 ├── src/
 │   ├── config/                  # ⚙️ O coração configurável
 │   │   ├── questions.js         # Steps, perguntas e lógica condicional
-│   │   └── themes.js            # 3 temas (dark, light, neon) com CSS variables
+│   │   └── themes.js            # 3 temas com CSS variables
 │   ├── constants/
-│   │   └── privacy.js           # NFR-006: regex, mensagens e scanner
+│   │   └── privacy.js           # Regex, mensagens e scanner
 │   ├── utils/                   # 🧠 Inteligência analítica
 │   │   ├── scoring.js           # 6 índices compostos + classificação
 │   │   ├── export.js            # Exportação JSON e CSV
 │   │   └── aiReport.js          # ✦ Geração de relatório via Azure OpenAI
 │   ├── store/                   # 💾 Estado e persistência
-│   │   ├── feedbackStore.js     # CRUD localStorage (preparado para API)
+│   │   ├── feedbackStore.js     # CRUD localStorage
 │   │   └── ThemeContext.js      # Contexto React para temas
 │   ├── mock/
 │   │   └── feedbacks.js         # 5 feedbacks simulados para demo
@@ -57,7 +57,7 @@ feedbackhub/
 │   │   └── DashboardPage.js     # Dashboard analítico + IA
 │   ├── App.js                   # Shell principal
 │   ├── index.js                 # Entry point React
-│   └── styles.css               # Design system completo (1670+ linhas)
+│   └── styles.css               # Design system completo
 ├── scripts/
 │   └── verify.js                  # Script de verificação automatizada (94+ checks)
 ├── docs/
@@ -309,7 +309,7 @@ O sistema implementa múltiplas camadas de segurança:
 
 ---
 
-## 📦 Exportação para Data Lake
+## 📦 Exportação
 
 A aplicação oferece 4 formatos de exportação:
 
@@ -317,25 +317,14 @@ A aplicação oferece 4 formatos de exportação:
 |---------|----------|-----|
 | **JSON** | `.json` | Integração com APIs, debugging, visualização estruturada |
 | **CSV** | `.csv` | Planilhas (Excel, Google Sheets), análise ad-hoc |
-| **NDJSON** | `.ndjson` | Ingestão em Data Lakes (BigQuery, Athena, Snowflake, Databricks) |
+| **NDJSON** | `.ndjson` | Ingestão em DB (BigQuery, Athena, Snowflake, Databricks) |
 | **Markdown** | `.md` | Relatório executivo gerado pela IA |
-
-> O formato **NDJSON** (Newline Delimited JSON) é o padrão da indústria para ingestão massiva de dados. Cada linha contém um documento JSON completo, permitindo streaming e processamento paralelo.
-
----
-
-## 🤝 Contribuindo
-
-1. Crie uma branch: `git checkout -b feature/minha-feature`
-2. Faça as alterações respeitando a arquitetura existente
-3. Teste localmente com `npm start`
-4. Envie um PR com descrição detalhada
 
 ---
 
 ## 📄 Licença
 
-Uso interno — Plataforma Alpha.
+Uso interno, propriedade intelectual privada.
 
 ---
 
