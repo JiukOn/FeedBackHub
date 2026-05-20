@@ -1,8 +1,8 @@
-# Arquitetura Técnica — Feedback Hub
+# Arquitetura Técnica — Sistema de Feedback
 
 ## Visão Geral
 
-O Feedback Hub segue uma arquitetura de **aplicação SPA (Single Page Application)** baseada em React, com separação clara de responsabilidades em camadas.
+O Sistema de Feedback segue uma arquitetura de **aplicação SPA (Single Page Application)** baseada em React, com separação clara de responsabilidades em camadas.
 
 ```
 ┌─────────────────────────────────────────────────┐
@@ -67,11 +67,11 @@ Contém toda a informação declarativa da aplicação:
 ### 5. Mock (`src/mock/`)
 
 - **`feedbacks.js`**: 5 feedbacks ultra-realistas simulando cenários típicos:
-  - Elogio ao Sales Analytics (gerente, nota 9)
+  - Elogio à Análise de Vendas (gerente, nota 9)
   - Crítica de alucinação (assessor, nota 2, RISCO CRÍTICO)
-  - Feature request para User Journey (especialista, nota 7)
-  - Elogio ao Global Briefing (gestor, nota 8)
-  - Problema de UX no AI Assistant (gerente, nota 6)
+  - Feature request para Jornada do Usuário (especialista, nota 7)
+  - Elogio ao Resumo Global (gestor, nota 8)
+  - Problema de UX no Assistente Virtual (gerente, nota 6)
 
 ### 6. Components (`src/components/`)
 

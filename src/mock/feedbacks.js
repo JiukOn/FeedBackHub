@@ -14,7 +14,7 @@ export const MOCK_FEEDBACKS = [
       segment: "select",
       usageFrequency: "semanal",
     },
-    feedbackContext: { evaluatedArea: "sales_coach", scenario: "uso_piloto" },
+    feedbackContext: { evaluatedArea: "analise_vendas", scenario: "uso_piloto" },
     ratings: {
       overallScore: 9,
       usefulness: 5,
@@ -31,7 +31,7 @@ export const MOCK_FEEDBACKS = [
     actionability: { intendedAction: "usaria_como_esta" },
     qualitative: {
       whatWorked:
-        "O argumento de venda veio super alinhado com o momento do cliente.",
+        "O texto gerado veio super alinhado com o momento do cliente.",
       mostImportantImprovement:
         "Poderia incluir o link direto para contratação.",
     },
@@ -59,7 +59,7 @@ export const MOCK_FEEDBACKS = [
       usageFrequency: "poucas_vezes",
     },
     feedbackContext: {
-      evaluatedArea: "dados_crm",
+      evaluatedArea: "central_dados",
       scenario: "analise_tecnica",
     },
     ratings: {
@@ -84,7 +84,7 @@ export const MOCK_FEEDBACKS = [
     },
     qualitative: {
       whatToImprove:
-        "O faturamento presumido estava muito diferente da realidade da empresa.",
+        "O valor estimado estava muito diferente da realidade da empresa.",
       incorrectOrRiskyInfo: "Dados financeiros defasados.",
     },
     areaSpecific: {
@@ -153,7 +153,7 @@ export const MOCK_FEEDBACKS = [
     environment: "prototype",
     source: "seed",
     userProfile: { role: "gestor", segment: "pf", usageFrequency: "diario" },
-    feedbackContext: { evaluatedArea: "briefing_720", scenario: "uso_piloto" },
+    feedbackContext: { evaluatedArea: "resumo_global", scenario: "uso_piloto" },
     ratings: {
       overallScore: 8,
       usefulness: 5,
@@ -169,7 +169,7 @@ export const MOCK_FEEDBACKS = [
     perception: { emotions: ["clareza", "curiosidade"], emotionIntensity: 3 },
     actionability: { intendedAction: "usaria_como_esta" },
     qualitative: {
-      whatWorked: "O resumo salvou 10 minutos de preparação para a visita.",
+      whatWorked: "O resumo salvou 10 minutos de preparação para a reunião.",
     },
     areaSpecific: {
       summaryBroughtEssential: 5,
@@ -194,7 +194,7 @@ export const MOCK_FEEDBACKS = [
       usageFrequency: "primeiro_contato",
     },
     feedbackContext: {
-      evaluatedArea: "chat_bionico",
+      evaluatedArea: "assistente_ia",
       scenario: "teste_prototipo",
     },
     ratings: {

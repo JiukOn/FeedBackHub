@@ -36,12 +36,12 @@ const features = [
 ];
 
 const areas = [
-  "AI Assistant",
-  "Sales Analytics",
-  "Global Briefing",
-  "Data Hub / CRM",
-  "User Journey",
-  "API & Integrations",
+  "Assistente Virtual",
+  "Análise de Vendas",
+  "Resumo Global",
+  "Central de Dados",
+  "Jornada do Usuário",
+  "APIs e Integrações",
   "Governança",
   "Performance",
 ];
@@ -52,7 +52,7 @@ export default function HomePage({ setPage }) {
       {}
       <section className="hero">
         <div className="hero__eyebrow">
-          <span className="hero__tag">Nexus Platform</span>
+          <span className="hero__tag">Plataforma Alpha</span>
         </div>
         <h1 className="hero__title">
           Sua opinião <br />
@@ -60,7 +60,7 @@ export default function HomePage({ setPage }) {
         </h1>
         <p className="hero__lead">
           Este portal coleta feedbacks estruturados sobre as ferramentas de IA
-          do Nexus Platform. Leva cerca de <strong>5 minutos</strong>{" "}
+          da Plataforma Alpha. Leva cerca de <strong>5 minutos</strong>{" "}
           e é completamente <strong>anônimo</strong>.
         </p>
         <p className="hero__sublead">

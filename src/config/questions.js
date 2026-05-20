@@ -62,13 +62,13 @@ export const FORM_STEPS = [
         type: "select",
         required: true,
         options: [
-          { value: "programa_geral", label: "Core Platform" },
-          { value: "chat_bionico", label: "AI Assistant" },
-          { value: "sales_coach", label: "Sales Analytics" },
-          { value: "briefing_720", label: "Global Briefing" },
-          { value: "dados_crm", label: "Data Hub / CRM" },
-          { value: "jornada_gerente", label: "User Journey" },
-          { value: "canais_integracoes", label: "API & Integrations" },
+          { value: "programa_geral", label: "Plataforma Core" },
+          { value: "assistente_ia", label: "Assistente Virtual" },
+          { value: "analise_vendas", label: "Análise de Vendas" },
+          { value: "resumo_global", label: "Resumo Global" },
+          { value: "central_dados", label: "Central de Dados" },
+          { value: "jornada_usuario", label: "Jornada do Usuário" },
+          { value: "canais_integracoes", label: "APIs e Integrações" },
           { value: "governanca", label: "Governança" },
           { value: "performance", label: "Performance" },
           { value: "treinamento", label: "Treinamento / Comunicação" },
@@ -463,7 +463,7 @@ export const FORM_STEPS = [
 ];
 
 export const AREA_SPECIFIC_QUESTIONS = {
-  chat_bionico: [
+  assistente_ia: [
     {
       id: "chatAnsweredExactly",
       label: "O Chat respondeu exatamente o que você perguntou?",
@@ -488,7 +488,7 @@ export const AREA_SPECIFIC_QUESTIONS = {
       ],
     },
   ],
-  sales_coach: [
+  analise_vendas: [
     {
       id: "recommendationActionable",
       label: "A recomendação era acionável?",
@@ -514,7 +514,7 @@ export const AREA_SPECIFIC_QUESTIONS = {
       required: false,
     },
   ],
-  briefing_720: [
+  resumo_global: [
     {
       id: "summaryBroughtEssential",
       label: "O resumo trouxe o contexto mais importante?",
@@ -539,7 +539,7 @@ export const AREA_SPECIFIC_QUESTIONS = {
       required: false,
     },
   ],
-  dados_crm: [
+  central_dados: [
     {
       id: "dataSeemCorrect",
       label: "O dado parecia correto?",
@@ -595,7 +595,7 @@ export const AREA_SPECIFIC_QUESTIONS = {
       ],
     },
   ],
-  jornada_gerente: [
+  jornada_usuario: [
     {
       id: "reducesEffort",
       label: "A solução reduz esforço ou adiciona mais uma tela?",

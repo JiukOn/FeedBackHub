@@ -1,12 +1,12 @@
-# ◆ Feedback Hub — Nexus Platform
+# ◆ Sistema de Feedback — Plataforma Alpha
 
-> Aplicação React configurável para captura, classificação e análise de feedbacks da **Nexus Platform**. Transforma percepção do usuário em métricas de utilidade, confiança, contexto, adoção, risco e priorização de backlog.
+> Aplicação React configurável para captura, classificação e análise de feedbacks da **Plataforma Alpha**. Transforma percepção do usuário em métricas de utilidade, confiança, contexto, adoção, risco e priorização de backlog.
 
 ---
 
 ## 📋 Visão Geral
 
-O **Feedback Hub** é um portal que coleta feedbacks estruturados sobre a Nexus Platform, processando-os em **6 índices compostos** que orientam a evolução do produto, priorização de backlog e melhoria contínua da experiência.
+O **Sistema de Feedback** é um portal que coleta feedbacks estruturados sobre a Plataforma Alpha, processando-os em **6 índices compostos** que orientam a evolução do produto, priorização de backlog e melhoria contínua da experiência.
 
 ### Principais Capacidades
 
@@ -127,7 +127,7 @@ A aplicação calcula **6 índices compostos** a partir dos dados brutos de cada
 | **Risco** | Acumulativo (0-100) | Dado incorreto + baixa confiança + compliance + recomendação inadequada |
 | **Geral** | Ponderado | `0.25×Utilidade + 0.25×Confiança + 0.20×Contexto + 0.20×Adoção + 0.10×(100-Risco)` |
 
-> \* Valores com asterisco são **context-aware**: quando o feedback inclui dados de frentes específicas (ex: `dataSeemUpdated` do CRM ou `summaryBroughtEssential` do Global Briefing), esses dados substituem os proxies genéricos.
+> \* Valores com asterisco são **context-aware**: quando o feedback inclui dados de frentes específicas (ex: `dataSeemUpdated` da Central de Dados ou `summaryBroughtEssential` do Resumo Global), esses dados substituem os proxies genéricos.
 
 ### Classificação Automática
 
@@ -167,8 +167,8 @@ Edite `AREA_SPECIFIC_QUESTIONS` em `src/config/questions.js`:
 
 ```javascript
 export const AREA_SPECIFIC_QUESTIONS = {
-  chat_bionico: [
-    { id: "novaMetrica", label: "Nova métrica do Chat?", type: "rating5" }
+  assistente_ia: [
+    { id: "novaMetrica", label: "Nova métrica do Assistente?", type: "rating5" }
   ],
   // ...
 };
@@ -335,10 +335,10 @@ A aplicação oferece 4 formatos de exportação:
 
 ## 📄 Licença
 
-Uso interno — Nexus Platform.
+Uso interno — Plataforma Alpha.
 
 ---
 
 <div align="center">
-  <strong>◆ Feedback Hub</strong> · Nexus Platform · v1.2.0
+  <strong>◆ Sistema de Feedback</strong> · Plataforma Alpha · v1.2.0
 </div>

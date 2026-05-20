@@ -1,4 +1,4 @@
-# Metodologia de Scoring — Feedback Hub
+# Metodologia de Scoring — Sistema de Feedback
 
 ## Resumo Executivo
 
@@ -80,9 +80,9 @@ Contexto = média(
 )
 ```
 
-> **Context-aware**: Quando o feedback avalia frentes específicas como "Global Briefing" ou "Data Hub/CRM", os dados de perguntas específicas substituem os proxies genéricos. Por exemplo:
-> - Para **Global Briefing**: usa `summaryBroughtEssential` como completude
-> - Para **Dados/CRM**: usa `dataSeemUpdated` como atualidade; se `outdatedInfo === "sim"`, atualidade = 0
+> **Context-aware**: Quando o feedback avalia frentes específicas como "Resumo Global" ou "Central de Dados", os dados de perguntas específicas substituem os proxies genéricos. Por exemplo:
+> - Para **Resumo Global**: usa `summaryBroughtEssential` como completude
+> - Para **Central de Dados**: usa `dataSeemUpdated` como atualidade; se `outdatedInfo === "sim"`, atualidade = 0
 
 ### Interpretação
 - **80-100**: Contexto rico e atualizado
@@ -104,7 +104,7 @@ Adoção = média(
 )
 ```
 
-> **Context-aware**: Para a frente "User Journey":
+> **Context-aware**: Para a frente "Jornada do Usuário":
 > - `reducesEffort === "adiciona"` → fricção = 0
 > - `reducesEffort === "reduz"` → fricção = 100
 
